@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="V-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pratikum HTML</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!--Judul Halaman atau Bagian -->
+        <h1>PROFIL SAYA</h1>
+
+        <!--Subjudul untuk Bagian Biografi -->
+        <h2>Biografi</h2>
+        <!--Foto Berdampingan & Nama Mahasiswa-->
+        <div class="flex-container">
+
+             <!--Gambar profil-->
+            <img src="Daniel.jpg" alt="Foto Profil Daniel Ndolu" width="210">
+
+            <!--Nama Mahasiswa & Paragraf Biografi-->
+            <div>
+            <h2>Daniel Ndolu</h2>
+            <h2>(42430017)</h2>
+            <p>Saya adalah mahasiswa yang mempelajarai Ilmu Komputer di Universitas pendidikan nasional. Saya memiliki ketertarikan dalam pengembangan web dan ingin memperdalam pengetahuan dalam HTML dan CSS.</p>
+            </div>
+        </div>
+        <!--Subjudul untuk Pendidikan-->
+         <h2>Pendidikan</h2>
+         <p>Saat ini saya menempuh semester ketiga di jurusan Ilmu Komputer. Saya mengambil kursus tentang dasar-dasar pengembangan web untuk meningkatkan keterampilan saya dalam bidang ini</p>
+    </body>
+    <body>
+        <!-- Menggunakan HyperLink-->
+         <h2>Kontak Saya</h2>
+         <p>Anda dapat menghubungi saya melalui alamat email di <a href="danielndolu374@gmail.com">danielndolu374@gmail.com</a>.</p>
+
+         <!-- Menambahkan Gambar -->
+          <h2>Proyek Terakhir</h2>
+          <p>Berikut ini adalah proyek terakhir yang telah saya kerjakan:</p>
+          <img src="pemrograman-web.jpg" alt="Deskripsi Proyek Terakhir">
+
+          <!-- Hyperlink ke dokumen eksternal -->
+           <p>Untuk informasi lebih lanjut, Anda dapat mengunjungi di media sosial saya melalui link berikut: <a href="https://github.com/danielcilboy" target="_blank">website saya</a>.</p>
+    
+
+        <!-- Tabel Riwayat Pendidikan -->
+         <h2>Riwayat Pendidikan</h2>
+         <table border="1" cellpadding="5" cellspacing="0">
+        <thead>
+            <tr>
+                <th>Jenjang</th>
+                <th>Nama Institusi</th>
+                <th>Tahun</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Tk</td>
+                <td>TK katolik St. Theresia</td>
+                <td>2009 - 2011</td>
+            </tr>
+            <tr>
+                <td>SD</td>
+                <td>SDK St. Maria</td>
+                <td>2011 - 2017</td>
+            </tr>
+            <tr>
+                <td>SMP</td>
+                <td>SMP Negeri 1 kalabahi</td>
+                <td>2017 - 2020 </td>
+            </tr>
+            <tr>
+                <td>SMK</td>
+                <td>SMA Katolik_St._Yoseph</td>
+                <td>2020 - 2023</td>
+            </tr>
+            <tr>
+                <td>Universitas</td>
+                <td>Universitas Pendidikan Nasional Denpasar</td>
+                <td>2024 - Sekarang</td>
+            </tr>
+        </tbody>
+        </table>
+         <table border=""1">
+            <tr>
+                
+        </table>
+    
+
+        <!-- Formulir Kontak -->
+        <center> 
+            <h2>Formulir Kontak</h2>
+            <form action="Submit_form.php" method="post">
+                <label for="fullname">Nama Lengkap:</label><br>
+                <input type="text" id="fullname" name="fullname" required><br><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="message">Pesan:</label><br>
+                <textarea id="message" name="message" rows="4" required></textarea><br><br>
+
+                <button type="submit">Kirim</button>
+            </form>
+        </center>
+    </body>
+</html>
